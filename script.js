@@ -20,7 +20,7 @@ let history = [];
    TIMER STEUERUNG (30 MINUTEN)
    ======================================== */
 let timerInterval = null;
-const QUIZ_DURATION_SECONDS = 30 * 60; // 30 Minuten in Sekunden
+const QUIZ_DURATION_SECONDS = 15 * 60; // 30 Minuten in Sekunden
 
 function startQuizTimer() {
     clearInterval(timerInterval); // Falls noch ein alter Timer läuft
