@@ -1,0 +1,704 @@
+/* ===== THEMES ===== */
+
+/* Default: girl_power */
+
+:root {
+    --bg: #5c0a52;
+    --bg2: #3d0636;
+    --card-bg: #7a1468;
+    --card-bg2: #4a0840;
+    --text: #fde8f5;
+    --text-muted: #f0b8d8;
+    --btn-bg: #c2479a;
+    --btn-hover: #df5485;
+    --btn-text: #fff;
+    --accent: #ffb3d9;
+    --correct-bg: #68cb47;
+    --correct-txt: #e5ffce;
+    --wrong-bg: #a52c2c;
+    --wrong-txt: #ffb3b3;
+    --progress-bg: #9b4a7a;
+    --progress-fg: #f69dd1;
+    --border: #b0569a;
+    --preview-bg: #4a0840;
+}
+
+body.man_power {
+    --bg: #060d61;
+    --bg2: #07192e;
+    --card-bg: #1a4070;
+    --card-bg2: #0d305a;
+    --text: #d6eaff;
+    --text-muted: #8ab8e8;
+    --btn-bg: #2971b8;
+    --btn-hover: #1d93a8;
+    --btn-text: #fff;
+    --accent: #7ec8f4;
+    --correct-bg: #159857;
+    --correct-txt: #b8f4c8;
+    --wrong-bg: #973434;
+    --wrong-txt: #ffc0c0;
+    --progress-bg: #1c3d5e;
+    --progress-fg: #5cd0ed;
+    --border: #2a5f9e;
+    --preview-bg: #0f2a4a;
+}
+
+body.dark_side {
+    --bg: #1c1c44;
+    --bg2: #020219;
+    --card-bg: #2a174f;
+    --card-bg2: #132f5f;
+    --text: #cdd6f4;
+    --text-muted: #a6adc8;
+    --btn-bg: #313244;
+    --btn-hover: #4f4162;
+    --btn-text: #cdd6f4;
+    --accent: #89b4fa;
+    --correct-bg: #28744e;
+    --correct-txt: #c7f4c2;
+    --wrong-bg: #802d2d;
+    --wrong-txt: #f38ba8;
+    --progress-bg: #2a2a3e;
+    --progress-fg: #89b4fa;
+    --border: #45475a;
+    --preview-bg: #121220;
+}
+
+body.crystal_pure {
+    --bg: #bcdef6;
+    --bg2: #ffdddd;
+    --card-bg: #c5f3fe;
+    --card-bg2: #eaf1f7;
+    --text: #1e3448;
+    --text-muted: #4a6a84;
+    --btn-bg: #5a8fbb;
+    --btn-hover: #3a73a8;
+    --btn-text: #fff;
+    --accent: #2c6496;
+    --correct-bg: #d0f0dd;
+    --correct-txt: #257c40;
+    --wrong-bg: #f7d6d6;
+    --wrong-txt: #9a1a1a;
+    --progress-bg: #b0c8db;
+    --progress-fg: #2a7abd;
+    --border: #8ab0cc;
+    --preview-bg: #eaf1f7;
+}
+
+/* ===== BASE STYLES ===== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    transition: background 0.4s, color 0.4s;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 16px 60px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.subtitle-title {
+    font-size: 1.3rem;
+    color: var(--text-muted);
+}
+
+/* ===== CARD ===== */
+.card {
+    background: var(--card-bg);
+    padding: 28px 24px;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    margin-top: 12px;
+}
+
+/* ===== START PAGE ===== */
+.start-card {
+    text-align: center;
+}
+
+.quiz-badge {
+    display: inline-block;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 18px;
+}
+
+.intro-text {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin: 16px 0 24px;
+    line-height: 1.6;
+}
+
+/* ===== THEME BUTTONS ===== */
+.theme-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.theme-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--card-bg2);
+    color: var(--text);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, transform 0.1s;
+    font-family: Georgia, serif;
+}
+
+.theme-btn:hover {
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    transform: translateY(-1px);
+}
+
+.theme-btn.active-theme {
+    border-color: var(--accent);
+    background: var(--btn-hover);
+    color: var(--btn-text);
+    box-shadow: 0 0 0 2px var(--accent);
+}
+
+.theme-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* ===== THEME PREVIEW ===== */
+.theme-preview {
+    background: var(--preview-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 24px;
+    text-align: left;
+    display: none;
+}
+
+.theme-preview.visible {
+    display: block;
+}
+
+.preview-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+}
+
+.preview-question {
+    font-size: 0.88rem;
+    font-weight: bold;
+    color: var(--text);
+    margin-bottom: 8px;
+}
+
+.preview-answers {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.preview-btn {
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border-radius: 8px;
+    padding: 7px 12px;
+    font-size: 0.8rem;
+    opacity: 0.85;
+}
+
+.preview-btn.preview-correct {
+    opacity: 1;
+    border: 2px solid var(--accent);
+}
+
+.preview-feedback {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    background: var(--correct-bg);
+    color: var(--correct-txt);
+}
+
+/* ===== START BUTTON ===== */
+.start-btn {
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    border-radius: 10px;
+    padding: 13px 32px;
+    font-size: 1rem;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    width: 100%;
+}
+
+.start-btn:hover {
+    background: var(--btn-hover);
+    transform: translateY(-1px);
+}
+
+.quiz-timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; /* Feste Breite, damit die Zahlen nicht springen */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 15px auto;
+    width: fit-content;
+    border: 2px solid var(--primary-color, #ccc); /* Nutzt deine Theme-Farbe, falls vorhanden */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ===== PROGRESS ===== */
+.progress-info {
+    display: flex;
+    gap: 16px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background: var(--progress-bg);
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+
+#progressFill {
+    height: 100%;
+    width: 0%;
+    background: var(--progress-fg);
+    border-radius: 4px;
+    transition: width 0.4s ease;
+}
+
+/* ===== QUIZ CARD ===== */
+#question {
+    font-size: 1.1rem;
+    color: var(--text);
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+
+/* ===== ANSWER BUTTONS ===== */
+.answer-btn {
+    display: block;
+    width: 100%;
+    margin: 6px 0;
+    padding: 11px 14px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    background: var(--card-bg2);
+    color: var(--text);
+    text-align: left;
+    font-size: 0.9rem;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+    line-height: 1.4;
+}
+
+.answer-btn:hover:not(:disabled) {
+    background: var(--btn-hover);
+    color: var(--btn-text);
+    border-color: var(--accent);
+}
+
+.answer-btn:disabled {
+    cursor: default;
+}
+
+.answer-btn.btn-correct {
+    background: var(--correct-bg);
+    color: var(--correct-txt);
+    border-color: var(--correct-txt);
+    opacity: 1 !important;
+}
+
+.answer-btn.btn-wrong {
+    background: var(--wrong-bg);
+    color: var(--wrong-txt);
+    border-color: var(--wrong-txt);
+    opacity: 1 !important;
+}
+
+/* ===== TEXT INPUT ===== */
+#textAnswer {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1.5px solid var(--border);
+    background: var(--card-bg2);
+    color: var(--text);
+    font-size: 0.95rem;
+    font-family: Georgia, serif;
+}
+
+#textAnswer:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+/* ===== FEEDBACK ===== */
+#feedback {
+    margin-top: 14px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    display: none;
+}
+
+#feedback.correct {
+    display: block;
+    background: var(--correct-bg);
+    color: var(--correct-txt);
+    border: 1px solid var(--correct-txt);
+}
+
+#feedback.wrong {
+    display: block;
+    background: var(--wrong-bg);
+    color: var(--wrong-txt);
+    border: 1px solid var(--wrong-txt);
+}
+
+/* ===== NAV BUTTONS ===== */
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.nav-buttons button {
+    flex: 1;
+    padding: 11px;
+    border: none;
+    border-radius: 10px;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    font-size: 0.9rem;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.nav-buttons button:hover {
+    background: var(--btn-hover);
+}
+
+/* ===== RESULT PAGE ===== */
+.result-card {
+    text-align: center;
+}
+
+.result-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 24px;
+    color: var(--text);
+}
+
+#resultContent {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text);
+    margin-bottom: 28px;
+}
+
+.grade-badge {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--accent);
+    margin: 12px 0;
+}
+
+.shuffle-btn,
+
+.restart-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.shuffle-btn {
+    background: var(--btn-bg);
+    color: var(--btn-text);
+}
+
+.shuffle-btn:hover {
+    background: var(--btn-hover);
+}
+
+.restart-btn {
+    background: var(--card-bg2);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+}
+
+.restart-btn:hover {
+    background: var(--btn-bg);
+    color: var(--btn-text);
+}
+
+/* ===== QUIZ TITLE ===== */
+#quizTitle {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+}
+
+/* ===== REVIEWED INDICATOR ===== */
+.reviewed-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* ===== LIZARD STYLES ===== */
+#lizardToggleBtn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 10000;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-family: Georgia, serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#lizardToggleBtn.disabled {
+    background: #555;
+    color: #aaa;
+}
+
+#lizard {
+    position: fixed;
+    top: 0;       /* KORREKTUR: Startpunkt definiert */
+    left: 0;      /* KORREKTUR: Startpunkt definiert */
+    width: 65px; 
+    height: 35px;
+    z-index: 9999;
+    cursor: pointer;
+    user-select: none;
+    touch-action: none;
+    transition: opacity 0.3s;
+    transform-origin: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lizard-hidden {
+    display: none !important;
+}
+
+.lizard-body {
+    position: relative;
+    width: 35px;
+    height: 16px;
+    background: #4ca64c; 
+    border-radius: 50%;
+}
+
+.lizard-walk-anim .lizard-body {
+    animation: lizardWiggle 0.2s infinite alternate ease-in-out;
+}
+
+.lizard-head {
+    position: absolute;
+    right: -10px;
+    top: -2px;
+    width: 14px;
+    height: 20px;
+    background: #73e673; 
+    border-radius: 50% 40% 40% 50%;
+}
+
+.lizard-eye {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #341919;
+    border-radius: 50%;
+}
+
+.lizard-eye.left { top: 3px; right: 3px; }
+
+.lizard-eye.right { bottom: 3px; right: 3px; }
+
+@keyframes eyeBlink {
+    0%, 90%, 100% { transform: scaleY(1); }
+    95% { transform: scaleY(0.1); }
+}
+
+.lizard-blink .lizard-eye {
+    animation: eyeBlink 0.3s infinite;
+}
+
+.lizard-dots {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(circle, #ffff4d 2px, transparent 2px),
+
+        radial-gradient(circle, #ffed21 1.5px, transparent 1.5px);
+    background-size: 10px 10px;
+    background-position: 3px 4px, 12px 8px;
+    opacity: 0.9;
+}
+
+.leg {
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    background: #73e673;
+    border-radius: 3px;
+    transform-origin: top center;
+}
+
+.front-left { top: -6px; left: 22px; transform: rotate(30deg); }
+
+.front-right { bottom: -6px; left: 22px; transform: rotate(-30deg); transform-origin: bottom center; }
+
+.back-left { top: -6px; left: 6px; transform: rotate(-20deg); }
+
+.back-right { bottom: -6px; left: 6px; transform: rotate(20deg); transform-origin: bottom center; }
+
+@keyframes moveLegLeft {
+    0% { transform: rotate(30deg); }
+    100% { transform: rotate(-10deg); }
+}
+
+@keyframes moveLegRight {
+    0% { transform: rotate(-30deg); }
+    100% { transform: rotate(10deg); }
+}
+
+.lizard-walk-anim .front-left, .lizard-walk-anim .back-right {
+    animation: moveLegLeft 0.15s infinite alternate ease-in-out;
+}
+
+.lizard-walk-anim .front-right, .lizard-walk-anim .back-left {
+    animation: moveLegRight 0.15s infinite alternate ease-in-out;
+}
+
+.lizard-tail {
+    position: absolute;
+    left: -14px;
+    top: 5px;
+    width: 16px;
+    height: 6px;
+    background: #4ca64c;
+    border-radius: 50% 0 0 50%;
+    transform-origin: right center;
+}
+
+.lizard-walk-anim .lizard-tail {
+    animation: lizardTailWiggle 0.15s infinite alternate ease-in-out;
+}
+
+@keyframes lizardPanic {
+
+    0% { transform: scale(1) translate(0, 0) rotate(0deg); }
+    20% { transform: scale(1.1) translate(-3px, 2px) rotate(15deg); }
+    40% { transform: scale(0.9) translate(3px, -2px) rotate(-15deg); }
+    60% { transform: scale(1.1) translate(-2px, -2px) rotate(10deg); }
+    80% { transform: scale(0.9) translate(2px, 2px) rotate(-10deg); }
+    100% { transform: scale(1) translate(0, 0) rotate(0deg); }
+}
+
+.lizard-panic {
+    animation: lizardPanic 0.1s infinite !important;
+}
+
+@keyframes lizardWiggle {
+    0% { transform: skewY(-6deg); }
+    100% { transform: skewY(6deg); }
+}
+
+@keyframes lizardTailWiggle {
+
+    0% { transform: rotate(-20deg); }
+    100% { transform: rotate(20deg); }
+} 
+
+/* Styling für die ausgewählten Buttons vor der Prüfung */
+.answer-btn.btn-selected {
+    background-color: #378add !important; /* Ein schönes IHK-Blau */
+    color: white !important;
+    border-color: #256ca8 !important;
+    transform: scale(0.98); /* Kleiner visueller Druckeffekt */
+}

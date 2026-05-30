@@ -1,0 +1,1665 @@
+[
+  {
+    "frage": "Was bedeutet die Abkürzung Full HD und welche Auflösung hat es?",
+    "optionen": {
+      "a": "Full High Definition",
+      "b": "1920x1080 Pixel",
+      "c": "2560x1440 Pixel",
+      "d": "8K Auflösung"
+    },
+    "korrekte_antworten": ["a", "b"]
+  },
+  {
+    "frage": "Was versteht man unter WQHD?",
+    "optionen": {
+      "a": "Wide Quad HD",
+      "b": "3840x2160 Pixel",
+      "c": "2560x1440 Pixel",
+      "d": "1440p"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Wofür steht UHD und welche Auflösung hat es?",
+    "optionen": {
+      "a": "3840x2160 Pixel",
+      "b": "1920x1080 Pixel",
+      "c": "Ultra High Definition",
+      "d": "2560x1440 Pixel"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Was ist der Unterschied zwischen 4K und UHD?",
+    "optionen": {
+      "a": "4096x2160 Pixel im Kino (4K DCI)",
+      "b": "UHD ist ausschließlich für Smartphones definiert",
+      "c": "UHD entspricht 3840x2160 Pixel im Consumerbereich",
+      "d": "Beide Begriffe beschreiben exakt dieselbe Auflösung ohne Unterschiede"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Was beschreibt die Pixeldichte (DPI)?",
+    "optionen": {
+      "a": "Anzahl der Pixel pro Zoll",
+      "b": "Maßeinheit für Bildschirmdiagonale",
+      "c": "Höhere Werte bedeuten schärferes Bild",
+      "d": "Bildwiederholrate eines Monitors"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Was bedeutet Bildwiederholrate (Hz)?",
+    "optionen": {
+      "a": "Anzahl der Bildaktualisierungen pro Sekunde",
+      "b": "Reaktionszeit des Panels",
+      "c": "Einheit Hertz (Hz)",
+      "d": "Farbtiefe eines Displays"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Was versteht man unter Reaktionszeit eines Monitors?",
+    "optionen": {
+      "a": "Zeit für Pixel Farbwechsel",
+      "b": "Helligkeit in Candela",
+      "c": "In Millisekunden angegeben",
+      "d": "Anzahl der Pixel pro Zoll"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Was bedeutet Farbtreue bei einem Monitor?",
+    "optionen": {
+      "a": "Genauigkeit der Farbdarstellung im Vergleich zum Original",
+      "b": "Abhängig von Farbraum und Kalibrierung",
+      "c": "Bestimmt wie laut ein Monitor ist",
+      "d": "Wichtig für Bild- und Grafikbearbeitung"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Was ist der Standardfarbraum bei Monitoren?",
+    "optionen": {
+      "a": "AdobeRGB ist der Standard für alle Monitore",
+      "b": "sRGB",
+      "c": "Definiert den Farbumfang für Web und viele Geräte",
+      "d": "Bezieht sich auf Bildwiederholrate"
+    },
+    "korrekte_antworten": ["b", "c"]
+  },
+  {
+    "frage": "Was versteht man unter sRGB?",
+    "optionen": {
+      "a": "Standard RGB Farbraum für Web und viele Geräte",
+      "b": "Maß für Monitorgröße in Zoll",
+      "c": "Definiert einen relativ kleinen aber weit verbreiteten Farbraum",
+      "d": "Einheit für Helligkeit"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Warum wirkt ein 24-Zoll-Full-HD-Monitor schärfer als ein größerer Monitor mit gleicher Auflösung?",
+    "optionen": {
+      "a": "Die Pixel sind auf kleinerer Fläche dichter angeordnet",
+      "b": "Die Farbtemperatur ist höher eingestellt",
+      "c": "Die Bildwiederholrate ist automatisch höher",
+      "d": "Die Grafikkarte skaliert das Bild stärker"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Was passiert mit der Pixeldichte, wenn die Auflösung bei gleicher Bildschirmgröße steigt?",
+    "optionen": {
+      "a": "Sie sinkt",
+      "b": "Sie steigt",
+      "c": "Sie bleibt gleich",
+      "d": "Sie wird unabhängig von der Auflösung"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Berechne die Pixeldichte: Ein 24-Zoll-Monitor hat Full HD – wie hoch ist sie ungefähr laut Text?",
+    "optionen": {
+      "a": "ca. 80 PPI",
+      "b": "ca. 92 PPI",
+      "c": "ca. 110 PPI",
+      "d": "ca. 140 PPI"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Warum ist 4K auf einem 24-Zoll-Monitor oft nicht sinnvoll?",
+    "optionen": {
+      "a": "Die Farbdarstellung wird ungenauer",
+      "b": "Der Unterschied ist im Alltag kaum sichtbar und erfordert Skalierung",
+      "c": "Die Panelhelligkeit nimmt stark ab",
+      "d": "Die Reaktionszeit verschlechtert sich deutlich"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Welche Nachteile entstehen bei zu hoher Pixeldichte im Alltag?",
+    "optionen": {
+      "a": "Programme skalieren teilweise unsauber",
+      "b": "Höhere Anforderungen an GPU und System",
+      "c": "Geringere Farbtreue",
+      "d": "Sichtbare Bildverzögerung"
+    },
+    "korrekte_antworten": ["a", "b"]
+  },
+  {
+    "frage": "Was ist der Vorteil eines großen Farbraums?",
+    "optionen": {
+      "a": "Schnellere Reaktionszeit des Monitors",
+      "b": "Mehr darstellbare Farbabstufungen und kräftigere Farben",
+      "c": "Automatisch höhere Auflösung",
+      "d": "Reduzierter Energieverbrauch"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Warum ist Farbtreue besonders wichtig bei Bildbearbeitung?",
+    "optionen": {
+      "a": "Damit Farben konsistent und realistisch dargestellt werden",
+      "b": "Damit die Bildwiederholrate stabil bleibt",
+      "c": "Damit die Pixeldichte steigt",
+      "d": "Damit der Monitor heller wirkt"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Welche zwei Monitore im Test hatten sehr hohe sRGB-Abdeckung?",
+    "optionen": {
+      "a": "Generic Office Monitor",
+      "b": "Eizo ColorEdge CS2420",
+      "c": "Dell UltraSharp U2720Q",
+      "d": "Acer Basic 60Hz Monitor"
+    },
+    "korrekte_antworten": ["b", "c"]
+  },
+  {
+    "frage": "Welche Technik sorgt für besonders natürliches Schwarz?",
+    "optionen": {
+      "a": "OLED",
+      "b": "VA-Panel mit hohem Kontrast",
+      "c": "Local Dimming (Mini-LED)",
+      "d": "Standard TN-Panel"
+    },
+    "korrekte_antworten": ["a", "b", "c"]
+  },
+  {
+    "frage": "Warum ist OLED qualitativ besser als LCD?",
+    "optionen": {
+      "a": "Jeder Pixel leuchtet selbst und kann vollständig abgeschaltet werden",
+      "b": "OLED benötigt keine Grafikkarte",
+      "c": "Sehr hoher Kontrast und echte Schwarztöne sind möglich",
+      "d": "Keine Hintergrundbeleuchtung notwendig"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Welche Vorteile hat IPS (In-Plane Switching) Technologie bei Monitoren?",
+    "optionen": {
+      "a": "Sehr stabile Farbdarstellung auch bei schrägen Blickwinkeln",
+      "b": "Gute Farbgenauigkeit und starke Farbraumabdeckung",
+      "c": "Höchster nativer Kontrast aller Panelarten",
+      "d": "Sehr schnelle Reaktionszeiten wie bei TN"
+    },
+    "korrekte_antworten": ["a", "b"]
+  },
+  {
+    "frage": "Welche Nachteile hat IPS (In-Plane Switching) Technologie im Vergleich zu VA (Vertical Alignment) Technologie?",
+    "optionen": {
+      "a": "Bessere Schwarzdarstellung als VA",
+      "b": "Geringerer nativer Kontrast als VA",
+      "c": "Höhere Farbsättigung als VA",
+      "d": "Geringerer Stromverbrauch als VA"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Was ist der Vorteil von VA (Vertical Alignment) Technologie bei Monitoren?",
+    "optionen": {
+      "a": "Sehr hoher Kontrast",
+      "b": "Sehr geringe Reaktionszeiten wie TN",
+      "c": "Tiefe Schwarztöne, besonders bei dunklen Inhalten",
+      "d": "Gut geeignet für Filme und Gaming in dunkler Umgebung"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Warum eignet sich TN (Twisted Nematic) Technologie besonders für Gaming?",
+    "optionen": {
+      "a": "Sehr hohe Farbgenauigkeit",
+      "b": "Sehr schnelle Reaktionszeiten und geringe Eingabeverzögerung",
+      "c": "Besonders hohe Blickwinkelstabilität",
+      "d": "Automatische HDR-Verarbeitung"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Welche Technologie bietet den höchsten Kontrast bei Monitoren?",
+    "optionen": {
+      "a": "IPS (In-Plane Switching)",
+      "b": "VA (Vertical Alignment)",
+      "c": "TN (Twisted Nematic)",
+      "d": "OLED (Organic Light Emitting Diode)"
+    },
+    "korrekte_antworten": ["d"]
+  },
+  {
+    "frage": "Welche Technologien bieten die besten Blickwinkelstabilitäten bei Monitoren?",
+    "optionen": {
+      "a": "IPS (In-Plane Switching, LCD-Panel-Technologie mit Flüssigkristallen)",
+      "b": "TN (Twisted Nematic, LCD-Panel-Technologie mit Flüssigkristallen)",
+      "c": "OLED (Organic Light Emitting Diode, selbstleuchtende Pixel-Technologie)",
+      "d": "VA (Vertical Alignment, LCD-Panel-Technologie mit Flüssigkristallen)"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Welche Monitor-Technologie ist am günstigsten und warum?",
+    "optionen": {
+      "a": "OLED (Organic Light Emitting Diode), wegen sehr einfacher Herstellung",
+      "b": "VA (Vertical Alignment), weil besonders günstige Produktionskosten",
+      "c": "TN (Twisted Nematic), wegen einfacher Struktur und sehr ausgereifter Fertigung",
+      "d": "IPS (In-Plane Switching), weil weit verbreitet"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Was bringt eine hohe Bildwiederholrate beim Spielen?",
+    "optionen": {
+      "a": "Höhere Auflösung",
+      "b": "Flüssigere Bewegungsdarstellung und geringere Bewegungsunschärfe",
+      "c": "Geringere Eingabeverzögerung",
+      "d": "Höhere Farbtiefe"
+    },
+    "korrekte_antworten": ["b", "c"]
+  },
+  {
+    "frage": "Wie oft wird ein Bild bei 180 Hz pro Sekunde aktualisiert?",
+    "optionen": {
+      "a": "60",
+      "b": "144",
+      "c": "180",
+      "d": "240"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Warum profitieren schwächere Grafikkarten von Full HD Auflösung?",
+    "optionen": {
+      "a": "Höhere FPS sind leichter erreichbar",
+      "b": "Automatisch bessere Texturqualität unabhängig von Hardware",
+      "c": "Geringere GPU-Last pro Bildberechnung",
+      "d": "Höhere Farbgenauigkeit ohne Kalibrierung"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Welche Grafikkarte wird im Text für Full HD empfohlen?",
+    "optionen": {
+      "a": "NVIDIA GeForce RTX 3050 / GTX 1660 Super Klasse",
+      "b": "NVIDIA GeForce RTX 4090",
+      "c": "Intel UHD Graphics (integrierte Grafik)",
+      "d": "NVIDIA GeForce RTX 3060 Ti"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Welche Grafikkarte wird für WQHD empfohlen?",
+    "optionen": {
+      "a": "NVIDIA GeForce GTX 1650",
+      "b": "NVIDIA GeForce RTX 3060 / RTX 4060 Klasse",
+      "c": "NVIDIA GeForce RTX 3050",
+      "d": "Intel Arc A380"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Was bewirken kurze Reaktionszeiten beim Gaming?",
+    "optionen": {
+      "a": "Erhöhen die maximale Auflösung",
+      "b": "Erhöhen die Farbtiefe",
+      "c": "Reduzieren Bewegungsunschärfe",
+      "d": "Verringern Eingabeverzögerung"
+    },
+    "korrekte_antworten": ["c", "d"]
+  },
+  {
+    "frage": "Welche Werte für Reaktionszeit gelten als sehr gut laut Text?",
+    "optionen": {
+      "a": "10 ms",
+      "b": "5 ms",
+      "c": "1 ms (GtG)",
+      "d": "20 ms"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Für welche Aufgaben ist ein 24-Zoll-Monitor besonders geeignet?",
+    "optionen": {
+      "a": "Büroarbeit und Office-Anwendungen",
+      "b": "Gaming im Full-HD-Bereich",
+      "c": "Programmieren und produktives Arbeiten",
+      "d": "Professionelle Kino-Farbkorrektur auf Referenzniveau"
+    },
+    "korrekte_antworten": ["a", "b", "c"]
+  },
+  {
+    "frage": "Warum ist ein 24-Zoll-Monitor weniger gut für Filme geeignet?",
+    "optionen": {
+      "a": "Geringere Immersion durch kleinere Bildfläche",
+      "b": "Schlechtere GPU-Leistung",
+      "c": "Geringere Bildwiederholrate",
+      "d": "Schlechtere Farbkalibrierung"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Für welche Arbeiten ist Farbtreue besonders wichtig?",
+    "optionen": {
+      "a": "Gaming",
+      "b": "Grafikdesign und Fotobearbeitung",
+      "c": "Reine Textverarbeitung",
+      "d": "Systemadministration"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Für welche Anwendungen sind hohe Hz-Zahlen im Office sinnvoll?",
+    "optionen": {
+      "a": "Scrollen und Arbeiten mit vielen Fenstern",
+      "b": "Flüssigeres Arbeiten und geringere Augenbelastung",
+      "c": "Datenkompression",
+      "d": "Animations- und Timeline-Arbeit (z. B. Videoediting)"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Wann ist ein großer Monitor (27–32 Zoll) sinnvoll?",
+    "optionen": {
+      "a": "Nur für Gaming",
+      "b": "Nur für mobile Nutzung",
+      "c": "Multitasking und professionelle Anwendungen mit viel Arbeitsfläche",
+      "d": "Nur für einfache Office-Arbeit"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Warum ist Skalierung bei 4K-Monitoren notwendig?",
+    "optionen": {
+      "a": "Um die Bildwiederholrate zu erhöhen",
+      "b": "Um die Farbqualität zu verbessern",
+      "c": "Um die GPU-Auslastung zu reduzieren",
+      "d": "Damit Benutzeroberfläche und Text bei hoher Pixeldichte lesbar bleiben"
+    },
+    "korrekte_antworten": ["d"]
+  },
+  {
+    "frage": "Vergleiche IPS (In-Plane Switching) und VA (Vertical Alignment) in Bezug auf Kontrast und Blickwinkel.",
+    "optionen": {
+      "a": "IPS bietet bessere Blickwinkelstabilität",
+      "b": "VA bietet bessere Blickwinkelstabilität",
+      "c": "VA bietet höheren nativen Kontrast",
+      "d": "IPS bietet höheren nativen Kontrast"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Vergleiche TN (Twisted Nematic) und IPS (In-Plane Switching) in Bezug auf Geschwindigkeit und Bildqualität.",
+    "optionen": {
+      "a": "TN ist schneller in der Reaktionszeit",
+      "b": "IPS ist schneller in der Reaktionszeit",
+      "c": "IPS bietet bessere Bildqualität und Farbtreue",
+      "d": "TN bietet bessere Farbgenauigkeit als IPS"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Erkläre, warum OLED (Organic Light Emitting Diode) als „Königsklasse“ gilt.",
+    "optionen": {
+      "a": "Perfekte Schwarzwerte durch abschaltbare Pixel",
+      "b": "Benötigt zwingend ein Backlight",
+      "c": "Sehr hohe Kontrastwerte möglich",
+      "d": "Sehr schnelle Reaktionszeiten der Pixel"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Warum ist ein VA-Monitor oft besser für Filme als ein IPS-Monitor?",
+    "optionen": {
+      "a": "Höherer nativer Kontrast",
+      "b": "Höhere Bildwiederholrate",
+      "c": "Tiefere Schwarzdarstellung",
+      "d": "Geringere Auflösung"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Warum ist ein IPS-Monitor besser für Büroarbeit als TN?",
+    "optionen": {
+      "a": "Bessere Blickwinkelstabilität",
+      "b": "Schlechtere Farbtreue",
+      "c": "Höhere Farbgenauigkeit",
+      "d": "Gleichmäßigere Farbdarstellung über den Bildschirm hinweg"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Ein Monitor hat 1920 × 1080 Pixel. Wie viele Pixel sind das insgesamt?",
+    "optionen": {
+      "a": "2.073.600 Pixel",
+      "b": "1.920.000 Pixel",
+      "c": "2.000.000 Pixel",
+      "d": "3.686.400 Pixel"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Ein Monitor zeigt 180 Bilder pro Sekunde. Wie viele Bilder sind das in 10 Sekunden?",
+    "optionen": {
+      "a": "1.800 Bilder",
+      "b": "1.080 Bilder",
+      "c": "18.000 Bilder",
+      "d": "1.200 Bilder"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Ein 27-Zoll-Monitor hat 2560 × 1440 Pixel. Berechne die Gesamtanzahl der Pixel.",
+    "optionen": {
+      "a": "3.686.400 Pixel",
+      "b": "3.000.000 Pixel",
+      "c": "4.000.000 Pixel",
+      "d": "2.560.000 Pixel"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Ein Monitor hat 60 Hz und wird durch einen 180 Hz Monitor ersetzt. Um wie viel Prozent steigt die Bildrate?",
+    "optionen": {
+      "a": "200 %",
+      "b": "100 %",
+      "c": "300 %",
+      "d": "150 %"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Ein Monitor hat 4 ms Reaktionszeit, ein anderer 8 ms. Wie viel schneller ist der erste?",
+    "optionen": {
+      "a": "4 ms kürzere Reaktionszeit",
+      "b": "50 % kürzere Reaktionszeit",
+      "c": "doppelt so schnelle Reaktionszeit",
+      "d": "kein Unterschied in der Reaktionszeit"
+    },
+    "korrekte_antworten": ["a", "b", "c"]
+  },
+  {
+    "frage": "Ein Nutzer arbeitet viel mit Texten und Tabellen. Welcher Monitortyp ist sinnvoll und warum?",
+    "optionen": {
+      "a": "IPS (In-Plane Switching), wegen guter Blickwinkel und Farbtreue",
+      "b": "TN (Twisted Nematic), wegen höchster Farbgenauigkeit",
+      "c": "OLED (Organic Light Emitting Diode), wegen geringster Kosten",
+      "d": "VA (Vertical Alignment), wegen niedrigster Auflösung"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Ein Gamer will möglichst schnelle Reaktionszeiten und hohe FPS. Welcher Monitor ist geeignet?",
+    "optionen": {
+      "a": "VA (Vertical Alignment) mit hoher Farbtreue",
+      "b": "IPS (In-Plane Switching) mit hoher Auflösung",
+      "c": "TN (Twisted Nematic) mit hoher Bildwiederholrate",
+      "d": "OLED (Organic Light Emitting Diode) ausschließlich für Büroarbeit"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Ein Fotograf braucht exakte Farben. Welche Eigenschaften sind entscheidend?",
+    "optionen": {
+      "a": "Hohe Farbgenauigkeit und großer Farbraum",
+      "b": "Niedrige Auflösung",
+      "c": "Hoher nativer Kontrast allein",
+      "d": "Hohe Bildwiederholrate"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Warum ist ein 24-Zoll-4K-Monitor oft unpraktisch im Alltag?",
+    "optionen": {
+      "a": "Zu geringe Pixeldichte",
+      "b": "Zu große Pixel",
+      "c": "Häufig notwendige Skalierung von Benutzeroberflächen",
+      "d": "Geringere Farbqualität"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Welche Eigenschaften sind wichtiger: hohe Hz oder hohe Auflösung – abhängig vom Einsatz?",
+    "optionen": {
+      "a": "Hohe Hz für Gaming und schnelle Bewegungen",
+      "b": "Hohe Auflösung für Bildbearbeitung und Detailarbeit",
+      "c": "Hohe Hz ist immer wichtiger als Auflösung",
+      "d": "Auflösung ist in allen Fällen wichtiger als Hz"
+    },
+    "korrekte_antworten": ["a", "b"]
+  },
+  {
+    "frage": "Ist eine höhere Auflösung immer besser? Begründe.",
+    "optionen": {
+      "a": "Ja, immer besser unabhängig vom Einsatz",
+      "b": "Nein, weil Leistungsanforderung und Nutzen vom Einsatz abhängen",
+      "c": "Ja, weil sie automatisch bessere Farben liefert",
+      "d": "Nein, weil sie die Bildwiederholrate reduziert"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Ist ein größerer Monitor automatisch besser? Begründe.",
+    "optionen": {
+      "a": "Ja, immer besser für alle Anwendungen",
+      "b": "Nein, da es auf Pixeldichte und Nutzungsszenario ankommt",
+      "c": "Ja, weil größere Bildfläche immer schärfer ist",
+      "d": "Nein, weil größere Monitore immer langsamer sind"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Warum ist „höchste Zahl = bester Monitor“ falsch?",
+    "optionen": {
+      "a": "Weil nur die Auflösung zählt",
+      "b": "Weil unterschiedliche Eigenschaften unterschiedlich wichtig sind",
+      "c": "Weil technische Werte immer direkt vergleichbar sind",
+      "d": "Weil Einsatzgebiet und Gewichtung entscheidend sind"
+    },
+    "korrekte_antworten": ["b", "d"]
+  },
+  {
+    "frage": "Kann ein Gaming-Monitor schlecht für Büroarbeit sein?",
+    "optionen": {
+      "a": "Nein, immer geeignet",
+      "b": "Ja, wegen schlechter Farbtreue oder geringer Blickwinkel",
+      "c": "Nein, weil Gaming-Monitore immer die höchste Auflösung haben",
+      "d": "Ja, wenn Fokus auf Geschwindigkeit statt Ergonomie liegt"
+    },
+    "korrekte_antworten": ["b", "d"]
+  },
+  {
+    "frage": "Ist OLED (Organic Light Emitting Diode) immer die beste Wahl? Nenne Einschränkungen.",
+    "optionen": {
+      "a": "Ja, immer überlegen in allen Bereichen",
+      "b": "Nein, Risiko von Einbrennen bei statischen Inhalten",
+      "c": "Nein, oft teurer als LCD-Technologien",
+      "d": "Ja, weil es keine Nachteile hat"
+    },
+    "korrekte_antworten": ["b", "c"]
+  },
+  {
+    "frage": "Was ist ein Kolorimeter?",
+    "optionen": {
+      "a": "Ein Messgerät zur客观 Erfassung und Analyse von Farbdarstellung eines Monitors",
+      "b": "Ein Gerät zur Erhöhung der Bildschirmhelligkeit",
+      "c": "Ein Kabel zur Farbsignalübertragung",
+      "d": "Ein Softwareprogramm zur Bildbearbeitung"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wozu wird ein Kalibriergerät (z. B. Kolorimeter) benutzt?",
+    "optionen": {
+      "a": "Zur automatischen Erhöhung der Auflösung",
+      "b": "Zur Messung und Anpassung der Farbdarstellung eines Monitors",
+      "c": "Zur Verbesserung der Grafikkartenleistung",
+      "d": "Zur Erhöhung der Bildwiederholrate"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Was ist ein VGA-Anschluss?",
+    "optionen": {
+      "a": "Ein moderner digitaler Video- und Audioanschluss",
+      "b": "Ein analoger Videoanschluss für Bildübertragung",
+      "c": "Ein Anschluss für Stromversorgung von Monitoren",
+      "d": "Ein kabelloses Übertragungsprotokoll"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Wofür steht VGA?",
+    "optionen": {
+      "a": "Video Graphics Array",
+      "b": "Visual Graphics Adapter",
+      "c": "Video Generation Adapter",
+      "d": "Virtual Graphics Architecture"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Was zeichnet DisplayPort-Technologie aus?",
+    "optionen": {
+      "a": "Sehr hohe Bandbreite für hohe Auflösungen und Bildwiederholraten",
+      "b": "Ausschließlich analoge Signalübertragung",
+      "c": "Unterstützung von Daisy-Chaining mehrerer Monitore",
+      "d": "Nur für Audioübertragung geeignet"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Was ist besonders an einem USB-C-Anschluss?",
+    "optionen": {
+      "a": "Beidseitig einsteckbar (reversibel)",
+      "b": "Überträgt nur Daten, kein Video",
+      "c": "Kann Daten, Strom und Video über ein Kabel übertragen (je nach Standard)",
+      "d": "Nur für Smartphones geeignet"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Wofür steht HDMI?",
+    "optionen": {
+      "a": "High-Definition Multimedia Interface",
+      "b": "High Digital Media Integration",
+      "c": "Hyper Display Monitor Interface",
+      "d": "High Data Motion Input"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Was kann ein HDMI-Anschluss übertragen?",
+    "optionen": {
+      "a": "Nur Strom",
+      "b": "Video und Audio in digitaler Form",
+      "c": "Nur Internetdaten",
+      "d": "Nur analoge Bildsignale"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Was ist G-Sync?",
+    "optionen": {
+      "a": "Eine NVIDIA-Technologie zur Synchronisation von Bildwiederholrate und GPU-Ausgabe",
+      "b": "Eine AMD-Software zur Farbkalibrierung",
+      "c": "Eine Art von Monitorpanel",
+      "d": "Ein Anschlussstandard für Monitore"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Was ist FreeSync?",
+    "optionen": {
+      "a": "Eine AMD-Technologie zur Synchronisation von Bildwiederholrate und GPU-Ausgabe",
+      "b": "Ein Kabelstandard für Displays",
+      "c": "Eine Farbkalibrierungssoftware",
+      "d": "Eine HDMI-Erweiterung für Audio"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wofür steht PD?",
+    "optionen": {
+      "a": "Pixel Density",
+      "b": "Power Distribution",
+      "c": "Power Delivery",
+      "d": "Panel Definition"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Wofür wird Power Delivery (PD) benutzt?",
+    "optionen": {
+      "a": "Zur Verbesserung der Farbkalibrierung",
+      "b": "Zur Übertragung von Strom über ein USB-C-Kabel",
+      "c": "Zur Erhöhung der Bildwiederholrate",
+      "d": "Zur Steuerung der Monitorauflösung"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Was bedeutet Farbtemperatur bei einem Bildschirm?",
+    "optionen": {
+      "a": "Die physikalische Dicke des Panels",
+      "b": "Die Geschwindigkeit der Farbdarstellung",
+      "c": "Der Farbstich des weißen Bildpunkts (warm oder kalt)",
+      "d": "Die Anzahl darstellbarer Farben"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "In welcher Einheit wird die Farbtemperatur gemessen?",
+    "optionen": {
+      "a": "Hertz",
+      "b": "Candela",
+      "c": "Kelvin",
+      "d": "Lumen"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Wie viel Kelvin entsprechen Tageslicht ungefähr?",
+    "optionen": {
+      "a": "2700 K",
+      "b": "6500 K",
+      "c": "9000 K",
+      "d": "1200 K"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Welches ist der Standardfarbraum bei Monitoren?",
+    "optionen": {
+      "a": "Adobe RGB",
+      "b": "DCI-P3",
+      "c": "sRGB",
+      "d": "ProPhoto RGB"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Was ist der Vorteil eines großen Farbraums bei einem Monitor?",
+    "optionen": {
+      "a": "Höhere Bildwiederholrate",
+      "b": "Mehr darstellbare und differenziertere Farben",
+      "c": "Geringerer Stromverbrauch",
+      "d": "Höhere Pixeldichte"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Was ist Farbtreue bei einem Monitor?",
+    "optionen": {
+      "a": "Die Fähigkeit, Farben exakt und konsistent darzustellen",
+      "b": "Die maximale Helligkeit des Displays",
+      "c": "Die Anzahl der darstellbaren Farben",
+      "d": "Die Geschwindigkeit der Farbumstellung"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Bei welcher Arbeit am Monitor ist Farbtreue von großer Bedeutung?",
+    "optionen": {
+      "a": "Gaming",
+      "b": "Office-Arbeit",
+      "c": "Grafikdesign und Fotobearbeitung",
+      "d": "Systemadministration"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Was bedeutet eine Krümmung von 1500R?",
+    "optionen": {
+      "a": "Der Monitor ist komplett flach ohne Krümmung",
+      "b": "Der Krümmungsradius beträgt 1500 mm (starke Krümmung)",
+      "c": "Der Betrachtungswinkel beträgt 1500 Grad",
+      "d": "Die Pixeldichte beträgt 1500 PPI"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Wofür steht UHD?",
+    "optionen": {
+      "a": "Ultra High Definition",
+      "b": "Ultra Hardware Display",
+      "c": "Universal High Density",
+      "d": "Universal Hardware Definition"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wo wird 4K normalerweise eingesetzt?",
+    "optionen": {
+      "a": "Vor allem in mobilen Geräten ohne Grafikleistung",
+      "b": "Nur im Bürobereich mit Textverarbeitung",
+      "c": "In Bereichen mit hoher Detailanforderung wie Filmproduktion, Gaming und Medienbearbeitung",
+      "d": "Ausschließlich auf älteren Systemen"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Wie hoch ist die Pixelauflösung bei UHD?",
+    "optionen": {
+      "a": "1920 × 1080",
+      "b": "2560 × 1440",
+      "c": "3840 × 2160",
+      "d": "4096 × 2160"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Wie hoch ist die Pixelauflösung bei 4K (DCI)?",
+    "optionen": {
+      "a": "3840 × 2160",
+      "b": "2560 × 1080",
+      "c": "1920 × 1200",
+      "d": "4096 × 2160"
+    },
+    "korrekte_antworten": ["d"]
+  },
+  {
+    "frage": "Was macht die Bildwiederholrate?",
+    "optionen": {
+      "a": "Bestimmt die maximale Auflösung eines Monitors",
+      "b": "Steuert die Farbtemperatur des Bildes",
+      "c": "Gibt an, wie oft pro Sekunde das Bild aktualisiert wird",
+      "d": "Regelt die Hintergrundbeleuchtung"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Was versteht man unter einem WQHD-Monitor?",
+    "optionen": {
+      "a": "Ein Monitor mit besonders niedriger Reaktionszeit",
+      "b": "Ein Monitor mit Full-HD-Auflösung und hoher Farbtiefe",
+      "c": "Ein Monitor mit erhöhter Auflösung im Vergleich zu Full HD",
+      "d": "Ein Monitor mit analogem Anschluss"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Wofür steht WQHD und wie hoch ist die Auflösung bei einem WQHD-Monitor?",
+    "optionen": {
+      "a": "Wide Quality High Definition – 1920 × 1080",
+      "b": "Wide Quad High Definition – 3840 × 2160",
+      "c": "Wide Quad High Definition – 2560 × 1440",
+      "d": "Wide Quality High Definition – 2560 × 1440"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Wo eignet sich der Einsatz eines WQHD-Monitors am ehesten?",
+    "optionen": {
+      "a": "Nur für einfache Textverarbeitung im Büro",
+      "b": "Ausschließlich für Smartphone-Anwendungen",
+      "c": "Für Gaming, Multitasking und produktives Arbeiten mit mehr Platz als Full HD",
+      "d": "Für reine Audioüberwachung"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Was ist ein Pivot-Modus bei einem Monitor?",
+    "optionen": {
+      "a": "Automatische Anpassung der Bildhelligkeit",
+      "b": "Funktion zur Erhöhung der Bildwiederholrate",
+      "c": "Drehfunktion, bei der der Bildschirm ins Hochformat gedreht werden kann",
+      "d": "Ein spezieller Stromsparmodus"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Warum sollten Monitore höhenverstellbar sein?",
+    "optionen": {
+      "a": "Damit sie automatisch die Auflösung erhöhen",
+      "b": "Damit sie weniger Strom verbrauchen",
+      "c": "Für ergonomische Anpassung an Sitzposition und Augenhöhe",
+      "d": "Um die WLAN-Verbindung zu verbessern"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Bei welcher Arbeit ist es sinnvoll, den Pivot-Modus zu nutzen?",
+    "optionen": {
+      "a": "Bei der Bearbeitung langer Dokumente im Hochformat oder Tabellenkalkulationen",
+      "b": "Für klassische Gaming-Setups im Querformat",
+      "c": "Für reine Audio- oder Videowiedergabe ohne Bildschirminteraktion",
+      "d": "Bei der Nutzung von VR-Brillen ohne externen Monitor"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wofür benutzt man Adobe RGB-Monitore?",
+    "optionen": {
+      "a": "Für Office-Anwendungen und Web-Browsing",
+      "b": "Für professionelle Fotobearbeitung und Print-/Prepress-Workflows",
+      "c": "Für Konsolenspiele mit niedriger Farbtiefe",
+      "d": "Für reine Textverarbeitung ohne Farbanforderungen"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Wofür benutzt man HDR-Monitore?",
+    "optionen": {
+      "a": "Für Inhalte mit erweitertem Dynamikumfang wie Filme und HDR-Gaming",
+      "b": "Für Schwarz-Weiß-Dokumentenverarbeitung",
+      "c": "Für hochwertige Bild- und Videobearbeitung mit hohem Kontrastumfang",
+      "d": "Für einfache Terminal- oder Code-Arbeiten ohne Grafikausgabe"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Wofür nutzt man Monitore mit dem Standardfarbraum sRGB?",
+    "optionen": {
+      "a": "Für farbkritische Web- und Office-Anwendungen als Standardfarbraum",
+      "b": "Für professionelle Druckvorstufe mit erweitertem Farbumfang",
+      "c": "Für einfache Archivierung von Textdokumenten ohne Farbanforderungen",
+      "d": "Für hochdynamische HDR-Filmproduktion"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wofür benutzt man Monitore mit dem Farbraum DCI-P3?",
+    "optionen": {
+      "a": "Für Kino- und Filmproduktion sowie moderne Streaming-Inhalte",
+      "b": "Für klassische Büroarbeiten ohne Farbfokus",
+      "c": "Für farbintensive Bild- und Videobearbeitung im professionellen Umfeld",
+      "d": "Für einfache Textdarstellung mit reduzierter Farbpalette"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Welche Bedeutung haben Kontrastverhältnisse in Monitoren?",
+    "optionen": {
+      "a": "Sie bestimmen den Unterschied zwischen dem hellsten Weiß und dem dunklen Schwarz",
+      "b": "Sie regeln ausschließlich die Bildschirmauflösung",
+      "c": "Sie beeinflussen die wahrgenommene Bildtiefe und Detaildarstellung",
+      "d": "Sie legen die Bildwiederholrate des Monitors fest"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Welche unterschiedlichen Anwendungen bei Monitoren bedürfen welcher Kontrastverhältnisse?",
+    "optionen": {
+      "a": "Gaming und Filmwiedergabe profitieren von hohen Kontrastverhältnissen",
+      "b": "Reine Textverarbeitung benötigt keine besonders hohen Kontrastwerte",
+      "c": "Medizinische Bildgebung nutzt oft präzise, definierte Kontrastwerte zur Detailerkennung",
+      "d": "Audioanwendungen erfordern spezielle Kontrastoptimierungen"
+    },
+    "korrekte_antworten": ["a", "b", "c"]
+  },
+  {
+    "frage": "Was ist ein Nit?",
+    "optionen": {
+      "a": "Eine Einheit zur Messung der Bildschirmauflösung",
+      "b": "Eine Maßeinheit für die Helligkeit eines Displays (cd/m²)",
+      "c": "Eine Einheit zur Messung der Farbgenauigkeit eines Monitors",
+      "d": "Ein Standard zur Beschreibung von Kontrastverhältnissen"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Wofür steht NIT?",
+    "optionen": {
+      "a": "Netzwerk-Interface-Technologie",
+      "b": "National Imaging Transfer",
+      "c": "Es ist keine Abkürzung – sondern ein lateinisches Wort (nitere = scheinen) für die Helligkeitseinheit",
+      "d": "New Information Technology"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Wie viel Nits braucht man in einer hellen Umgebung oder am Fenster?",
+    "optionen": {
+      "a": "200–300 Nits für dunkle Räume",
+      "b": "300–400 Nits für typische Büroarbeit",
+      "c": "150–200 Nits für reine Nachtarbeit",
+      "d": "500–1000+ Nits für sehr helle Umgebungen oder am Fenster"
+    },
+    "korrekte_antworten": ["d"]
+  },
+  {
+    "frage": "Wie nennt man die Zeit, die Pixel benötigen, um ihre Farben zu wechseln?",
+    "optionen": {
+      "a": "Bildwiederholrate",
+      "b": "Reaktionszeit",
+      "c": "Farbraum",
+      "d": "Kontrastverhältnis"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Was passiert, wenn Monitor und Grafikkarte nicht synchronisiert sind und Frames in unterschiedlichen Geschwindigkeiten geliefert werden?",
+    "optionen": {
+      "a": "Tearing (Bildzerreißen)",
+      "b": "Geringere Auflösung",
+      "c": "Stuttering / Ruckeln",
+      "d": "Frame-Pacing-Probleme (unruhige Frame-Abstände)"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Was gibt die Bildwiederholrate an?",
+    "optionen": {
+      "a": "Farbtiefe eines Panels",
+      "b": "Kontrastumfang des Bildes",
+      "c": "Anzahl der Bildaktualisierungen pro Sekunde",
+      "d": "Anzahl der Pixel pro Zoll"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Für welchen Bereich eignen sich Monitore mit 60 Hertz?",
+    "optionen": {
+      "a": "Office- und Büroanwendungen",
+      "b": "kompetitives E-Sport-Gaming",
+      "c": "Web-Browsing und Standard-Medienkonsum",
+      "d": "allgemeine Alltags- und Multimedia-Nutzung"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Für welchen Bereich eignen sich Monitore mit 120 bis 144 Hertz?",
+    "optionen": {
+      "a": "kompetitives Gaming und Shooter",
+      "b": "einfache Textverarbeitung ohne Bewegungsfokus",
+      "c": "flüssige Darstellung bei schnellen Bewegungen und Scrollen",
+      "d": "schnelle Videowiedergabe und Action-Inhalte"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Für welchen Bereich eignen sich Monitore mit 240 Hertz und mehr?",
+    "optionen": {
+      "a": "professionelles E-Sport-Level Gaming",
+      "b": "einfache Office-Arbeiten ohne Anforderungen an Reaktionszeit",
+      "c": "kompetitive Shooter mit Fokus auf Reaktionsgeschwindigkeit",
+      "d": "schnelle Bewegungsdarstellung in VR- und Simulationsanwendungen"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Welche Monitore haben die beste Blickwinkelstabilität?",
+    "optionen": {
+      "a": "IPS-Panels",
+      "b": "TN-Panels",
+      "c": "OLED-Panels",
+      "d": "älterer CRT-Monitore"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Welche Monitore haben eine eher schlechte Blickwinkelstabilität?",
+    "optionen": {
+      "a": "IPS",
+      "b": "VA",
+      "c": "TN",
+      "d": "OLED"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Welche Nachteile haben OLED-Bildschirme?",
+    "optionen": {
+      "a": "mögliches Burn-in bei statischen Inhalten",
+      "b": "sehr hohe Vollbildhelligkeit im Vergleich zu LCDs",
+      "c": "höhere Anschaffungskosten",
+      "d": "Helligkeitsbegrenzung bei großen hellen Flächen (ABL)"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Welche Vorteile haben OLED-Bildschirme?",
+    "optionen": {
+      "a": "Sehr hohe Helligkeit bei dauerhaft weißen Flächen ohne Einschränkungen",
+      "b": "Perfekte Schwarzwerte durch pixelgenaues Abschalten",
+      "c": "Sehr schnelle Reaktionszeiten",
+      "d": "Sehr weite Blickwinkel ohne Farbverschiebung"
+    },
+    "korrekte_antworten": ["b", "c", "d"]
+  },
+  {
+    "frage": "Welche Vorteile haben TN-Monitore?",
+    "optionen": {
+      "a": "Sehr niedrige Anschaffungskosten",
+      "b": "Sehr schnelle Reaktionszeiten",
+      "c": "Sehr hohe Farbtreue wie bei professionellen Design-Monitoren",
+      "d": "Hohe Bildwiederholraten gut erreichbar"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Welche Nachteile haben TN-Monitore?",
+    "optionen": {
+      "a": "Sehr hohe Kontrastwerte im Vergleich zu OLED",
+      "b": "Eingeschränkte Blickwinkelstabilität",
+      "c": "Geringe Farbgenauigkeit",
+      "d": "Sehr hoher Energieverbrauch"
+    },
+    "korrekte_antworten": ["b", "c"]
+  },
+  {
+    "frage": "Welche Vorteile haben VA-Monitore?",
+    "optionen": {
+      "a": "Sehr hoher Kontrast",
+      "b": "Besonders schnelle Pixelreaktionen ohne Schlieren",
+      "c": "Gute Schwarzwerte",
+      "d": "Geringe Produktionskosten im Vergleich zu OLED"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Welche Nachteile haben VA-Monitore?",
+    "optionen": {
+      "a": "Sehr schlechte Farbdarstellung grundsätzlich",
+      "b": "Langsamere Reaktionszeiten mit möglichem Ghosting",
+      "c": "Schlierenbildung bei schnellen Bewegungen",
+      "d": "Keine Möglichkeit für hohe Kontrastwerte"
+    },
+    "korrekte_antworten": ["b", "c"]
+  },
+  {
+    "frage": "Welche Nachteile haben IPS-Monitore?",
+    "optionen": {
+      "a": "IPS-Glow (Lichthöfe in dunklen Szenen)",
+      "b": "Sehr niedrige Farbtreue",
+      "c": "Geringerer Kontrast im Vergleich zu VA-Panels",
+      "d": "Komplett unbrauchbar für Designarbeiten"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Welche Vorteile haben IPS-Monitore?",
+    "optionen": {
+      "a": "Sehr gute Farbgenauigkeit",
+      "b": "Schlechte Blickwinkelstabilität",
+      "c": "Sehr weite Blickwinkel ohne starke Farbveränderung",
+      "d": "Geeignet für Grafikdesign und Bildbearbeitung"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Was beschreibt die Bildschirmdiagonale?",
+    "optionen": {
+      "a": "Die Breite des Monitors in Zentimetern",
+      "b": "Der Abstand von einer Ecke zur gegenüberliegenden Ecke des Bildschirms",
+      "c": "Die Anzahl der Pixel in der Breite",
+      "d": "Die Höhe des Monitors ohne Rahmen"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Welches sind gängige Größen für Bildschirme in Zoll?",
+    "optionen": {
+      "a": "24 Zoll",
+      "b": "27 Zoll",
+      "c": "32 Zoll",
+      "d": "19 Zoll"
+    },
+    "korrekte_antworten": ["a", "b", "c", "d"]
+  },
+  {
+    "frage": "Was ist die Pixelauflösung von Full HD?",
+    "optionen": {
+      "a": "1920 × 1080",
+      "b": "2560 × 1440",
+      "c": "3840 × 2160",
+      "d": "1600 × 900"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wofür steht PPI?",
+    "optionen": {
+      "a": "Pixels Per Inch (Pixel pro Zoll)",
+      "b": "Picture Processing Interface",
+      "c": "Photometric Pixel Index",
+      "d": "Panel Performance Indicator"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wofür steht RGB?",
+    "optionen": {
+      "a": "Red, Green, Blue",
+      "b": "Raster Graphics Base",
+      "c": "Real Gamma Brightness",
+      "d": "Resolution Grid Balance"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wofür steht LCD?",
+    "optionen": {
+      "a": "Liquid Crystal Display",
+      "b": "Light Controlled Device",
+      "c": "Liquid Color Definition",
+      "d": "Low Contrast Display"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wofür steht VA?",
+    "optionen": {
+      "a": "Vertical Alignment",
+      "b": "Visual Array",
+      "c": "Variable Angle",
+      "d": "Voltage Activation"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wofür steht IPS?",
+    "optionen": {
+      "a": "In-Plane Switching",
+      "b": "Integrated Pixel System",
+      "c": "Image Processing Sensor",
+      "d": "Internal Panel Structure"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wie funktioniert die IPS-Technologie im Monitordisplay?",
+    "optionen": {
+      "a": "Flüssigkristalle drehen sich parallel zur Panelebene",
+      "b": "Flüssigkristalle sind vertikal ausgerichtet und kippen nach Spannung",
+      "c": "Elektronenstrahlen treffen direkt auf eine Phosphorschicht",
+      "d": "Die Kristalle bleiben konstant senkrecht ohne Bewegung"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wie funktioniert die VA-Mode im Display?",
+    "optionen": {
+      "a": "Flüssigkristalle sind vertikal ausgerichtet und kippen bei Spannung",
+      "b": "Flüssigkristalle rotieren komplett in der Panelebene",
+      "c": "Pixel werden durch organische Leuchtdioden erzeugt",
+      "d": "Die Lichtpolarisation wird mechanisch verstärkt ohne Kristalle"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Wie funktioniert die TN-Mode im Display?",
+    "optionen": {
+      "a": "Flüssigkristalle drehen sich bei Spannung (Twisted Nematic Effekt)",
+      "b": "Kristalle bleiben starr ohne Veränderung",
+      "c": "Licht wird direkt elektrisch emittiert wie bei OLED",
+      "d": "Die Pixelfarbe entsteht durch Laserprojektion"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Was bedeutet Polarisation des Lichts?",
+    "optionen": {
+      "a": "Ausrichtung der Schwingungsrichtung von Lichtwellen",
+      "b": "Verstärkung der Lichtintensität durch Spannung",
+      "c": "Filterung von Farben durch elektrische Ladung",
+      "d": "Umwandlung von Licht in elektrische Signale im Pixel"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Was versteht man unter Pixeldichte (DPI) und warum ist sie wichtig?",
+    "optionen": {
+      "a": "Anzahl der Pixel pro Zoll, bestimmt die Schärfe des Bildes",
+      "b": "Anzahl der Hertz pro Sekunde",
+      "c": "Maß für die Farbgenauigkeit eines Monitors",
+      "d": "Verhältnis zwischen Helligkeit und Kontrast"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Was bedeutet die Bildschirmdiagonale und wie wird sie gemessen?",
+    "optionen": {
+      "a": "Breite des Monitors in Zentimetern",
+      "b": "Abstand von einer Ecke zur gegenüberliegenden Ecke",
+      "c": "Höhe des sichtbaren Bildbereichs",
+      "d": "Anzahl der Pixel in der Breite"
+    },
+    "korrekte_antworten": ["b"]
+  },
+  {
+    "frage": "Was ist die Bildwiederholrate und welche Einheit wird verwendet?",
+    "optionen": {
+      "a": "Anzahl der Bildaktualisierungen pro Sekunde",
+      "b": "Einheit: Hertz (Hz)",
+      "c": "Anzahl der Pixel pro Zoll",
+      "d": "Farbintensität des Displays"
+    },
+    "korrekte_antworten": ["a", "b"]
+  },
+  {
+    "frage": "Was versteht man unter Reaktionszeit eines Monitors?",
+    "optionen": {
+      "a": "Zeit, bis ein Pixel seine Farbe ändert",
+      "b": "Zeit für das Laden eines Programms",
+      "c": "Dauer einer kompletten Bildwiederholung",
+      "d": "Geschwindigkeit der Grafikkarte"
+    },
+    "korrekte_antworten": ["a"]
+  },
+  {
+    "frage": "Was bedeutet Farbtreue?",
+    "optionen": {
+      "a": "Farben werden möglichst originalgetreu dargestellt",
+      "b": "maximale Helligkeit des Bildschirms",
+      "c": "Genauigkeit der Farbwiedergabe im Vergleich zur Realität",
+      "d": "Anzahl darstellbarer Farben im System"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Was ist ein Farbraum (z. B. sRGB)?",
+    "optionen": {
+      "a": "Bereich darstellbarer Farben eines Geräts",
+      "b": "Software zur Bildbearbeitung",
+      "c": "Standard zur Definition von Farbwerten",
+      "d": "physische Eigenschaft der Bildschirmdiagonale"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Was ist der Unterschied zwischen Full HD, WQHD und 4K/UHD?",
+    "optionen": {
+      "a": "Unterschiedliche Anzahl an Bildpunkten",
+      "b": "Unterschiedliche Bildschirmfarben",
+      "c": "Unterschiedliche Auflösungen mit steigender Detailtiefe",
+      "d": "Unterschiedliche Panel-Technologien"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Warum wirkt ein 24-Zoll-Monitor mit Full HD oft ausreichend scharf?",
+    "optionen": {
+      "a": "ausreichende Pixeldichte bei kleiner Fläche",
+      "b": "sehr hohe Farbsättigung",
+      "c": "typische Betrachtungsdistanz ist relativ groß",
+      "d": "automatische Bildskalierung"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Warum kann 4K auf kleinen Monitoren problematisch sein?",
+    "optionen": {
+      "a": "Inhalte werden sehr klein dargestellt",
+      "b": "zu niedrige Bildwiederholrate",
+      "c": "hoher Leistungsbedarf der Grafikkarte",
+      "d": "geringere Farbtreue"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Wie verändert sich die Pixeldichte bei steigender Auflösung?",
+    "optionen": {
+      "a": "sie steigt",
+      "b": "sie sinkt immer",
+      "c": "bei gleicher Größe wird das Bild schärfer",
+      "d": "sie bleibt unabhängig von der Auflösung gleich"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Erklären Sie die Funktionsweise eines IPS-Panels.",
+    "optionen": {
+      "a": "Flüssigkristalle drehen sich parallel zur Ebene",
+      "b": "Kristalle bleiben starr ohne Bewegung",
+      "c": "ermöglicht gute Blickwinkel und Farbtreue",
+      "d": "nutzt selbstleuchtende Pixel wie OLED"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Wie funktioniert ein VA-Panel?",
+    "optionen": {
+      "a": "Flüssigkristalle sind vertikal ausgerichtet",
+      "b": "Kristalle kippen bei Spannung",
+      "c": "sehr schwache Kontraste",
+      "d": "gute Schwarzwerte möglich"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Wie arbeitet ein TN-Panel?",
+    "optionen": {
+      "a": "Kristalle drehen sich schraubenartig",
+      "b": "sehr schnelle Reaktionszeiten",
+      "c": "selbstleuchtende Pixel",
+      "d": "eingeschränkte Blickwinkel"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Welche Vorteile hat OLED im Vergleich zu LCD-Technologien?",
+    "optionen": {
+      "a": "perfektes Schwarz durch Pixelabschaltung",
+      "b": "extrem hohe Reaktionsgeschwindigkeit",
+      "c": "benötigt Hintergrundbeleuchtung",
+      "d": "sehr hohe Kontraste"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Welche Nachteile haben TN-, VA- oder OLED-Panels?",
+    "optionen": {
+      "a": "TN: schlechte Blickwinkel",
+      "b": "VA: mögliche Schlierenbildung",
+      "c": "OLED: mögliches Burn-in",
+      "d": "alle haben identische Eigenschaften"
+    },
+    "korrekte_antworten": ["a", "b", "c"]
+  },
+  {
+    "frage": "Vergleichen Sie IPS und VA hinsichtlich Kontrast, Blickwinkel und Reaktionszeit.",
+    "optionen": {
+      "a": "IPS hat bessere Blickwinkel",
+      "b": "VA hat höheren Kontrast",
+      "c": "VA ist immer schneller als IPS",
+      "d": "IPS hat meist schnellere Reaktionszeiten"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Vergleichen Sie TN und IPS im Hinblick auf Gaming und Bildbearbeitung.",
+    "optionen": {
+      "a": "TN ist schneller für Gaming",
+      "b": "IPS ist besser für Farbtreue",
+      "c": "TN eignet sich besser für Design",
+      "d": "IPS hat bessere Blickwinkel"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Welche Technologie eignet sich am besten für Filme, und warum?",
+    "optionen": {
+      "a": "VA wegen hohem Kontrast",
+      "b": "OLED wegen perfektem Schwarz",
+      "c": "TN wegen hoher Farbtreue",
+      "d": "IPS wegen extrem niedriger Kosten"
+    },
+    "korrekte_antworten": ["a", "b"]
+  },
+  {
+    "frage": "Welche Technologie eignet sich am besten für E-Sport?",
+    "optionen": {
+      "a": "TN",
+      "b": "IPS",
+      "c": "OLED",
+      "d": "VA"
+    },
+    "korrekte_antworten": ["a", "b", "c"]
+  },
+  {
+    "frage": "Was passiert bei fehlender Synchronisation zwischen GPU und Monitor?",
+    "optionen": {
+      "a": "Tearing",
+      "b": "flüssigeres Bild",
+      "c": "ungleichmäßige Frame-Darstellung",
+      "d": "automatisch höhere Auflösung"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Was ist Tearing?",
+    "optionen": {
+      "a": "Bildzerreißen",
+      "b": "Verzögerung beim Laden",
+      "c": "Versatz von Bildteile",
+      "d": "Farbfehler im Display"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Welche Aufgabe haben G-Sync, FreeSync oder Adaptive Sync?",
+    "optionen": {
+      "a": "Synchronisation von GPU und Monitor",
+      "b": "Vermeidung von Tearing",
+      "c": "Erhöhung der Auflösung",
+      "d": "Verbesserung der Bildstabilität"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Warum ist eine hohe Bildwiederholrate für Gaming wichtig?",
+    "optionen": {
+      "a": "flüssigere Bewegungen",
+      "b": "schnellere Reaktionsmöglichkeiten",
+      "c": "höhere Farbtiefe",
+      "d": "geringere Eingabeverzögerung gefühlt"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Welche Vorteile haben 144 Hz oder 240 Hz Monitore?",
+    "optionen": {
+      "a": "sehr flüssige Darstellung",
+      "b": "bessere Farbwiedergabe automatisch",
+      "c": "geringere Bewegungsunschärfe",
+      "d": "Vorteile in schnellen Spielen"
+    },
+    "korrekte_antworten": ["a", "c", "d"]
+  },
+  {
+    "frage": "Was ist ein Nit?",
+    "optionen": {
+      "a": "Einheit für Helligkeit",
+      "b": "Einheit für Kontrast",
+      "c": "cd/m²",
+      "d": "Maßeinheit für Auflösung"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Welche Helligkeit ist für helle Umgebungen notwendig?",
+    "optionen": {
+      "a": "100–200 Nits",
+      "b": "200–300 Nits",
+      "c": "500–1000+ Nits",
+      "d": "unter 50 Nits"
+    },
+    "korrekte_antworten": ["c"]
+  },
+  {
+    "frage": "Was bedeutet HDR?",
+    "optionen": {
+      "a": "hoher Dynamikumfang",
+      "b": "mehr Kontrast und Helligkeit",
+      "c": "geringere Farbtiefe",
+      "d": "bessere Detaildarstellung"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Warum ist hohe Helligkeit bei HDR-Inhalten wichtig?",
+    "optionen": {
+      "a": "für realistischere Highlights",
+      "b": "für bessere Dunkelbereiche",
+      "c": "für stärkeren Kontrast",
+      "d": "für Farbraumerweiterung"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Welche Unterschiede bestehen zwischen HDMI, DisplayPort und USB-C?",
+    "optionen": {
+      "a": "USB-C kann auch Strom liefern",
+      "b": "DisplayPort ist sehr gaming-freundlich",
+      "c": "HDMI ist nur für Audio",
+      "d": "alle übertragen Bildsignale"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Welcher Anschluss eignet sich besonders für Gaming und warum?",
+    "optionen": {
+      "a": "DisplayPort",
+      "b": "HDMI 2.1",
+      "c": "VGA",
+      "d": "USB-C ohne DP"
+    },
+    "korrekte_antworten": ["a", "b"]
+  },
+  {
+    "frage": "Was ist VGA und warum wird es heute kaum noch genutzt?",
+    "optionen": {
+      "a": "analoger Anschluss",
+      "b": "schlechte Bildqualität",
+      "c": "digitale Hochleistungsschnittstelle",
+      "d": "nur Bildübertragung"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Welche Vorteile bietet USB-C im Office-Bereich?",
+    "optionen": {
+      "a": "Strom + Bild + Daten über ein Kabel",
+      "b": "nur Bildübertragung",
+      "c": "einfache Notebook-Anbindung",
+      "d": "ersetzt HDMI vollständig in allen Fällen"
+    },
+    "korrekte_antworten": ["a", "c"]
+  },
+  {
+    "frage": "Was bedeutet Pivot-Modus?",
+    "optionen": {
+      "a": "Hochkant-Nutzung",
+      "b": "Drehfunktion des Monitors",
+      "c": "automatische Helligkeit",
+      "d": "180° Rotation möglich"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Welche ergonomischen Einstellungen sind möglich?",
+    "optionen": {
+      "a": "Höhe verstellen",
+      "b": "Neigung",
+      "c": "Farbraum ändern mechanisch",
+      "d": "Drehung"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Warum ist Ergonomie im Büro wichtig?",
+    "optionen": {
+      "a": "bessere Haltung",
+      "b": "weniger Belastung",
+      "c": "höhere Bildwiederholrate",
+      "d": "produktiveres Arbeiten"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Warum ist Monitor-Kalibrierung notwendig?",
+    "optionen": {
+      "a": "für realistische Farben",
+      "b": "für Druckgenauigkeit",
+      "c": "für höhere Auflösung",
+      "d": "für konsistente Darstellung"
+    },
+    "korrekte_antworten": ["a", "b", "d"]
+  },
+  {
+    "frage": "Was macht ein Kolorimeter?",
+    "optionen": {
+      "a": "misst Licht und Farbe",
+      "b": "erstellt Farbprofile",
+      "c": "erhöht Helligkeit",
+      "d": "analysiert Monitorleistung"
+    },
+    "korrekte_antworten": ["a", "b"]
+  },
+  {
+    "frage": "Warum unterscheiden sich Bildschirmfarben und Druckfarben?",
+    "optionen": {
+      "a": "unterschiedliche Farbräume",
+      "b": "Druck reflektiert Licht",
+      "c": "Bildschirm emittiert Licht",
+      "d": "gleiche physikalische Grundlage"
+    },
+    "korrekte_antworten": ["a", "b", "c"]
+  }
+]
+
+
+
